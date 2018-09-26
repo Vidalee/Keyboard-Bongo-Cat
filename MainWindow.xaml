@@ -1,0 +1,30 @@
+﻿<Window x:Class="BongoCatKeys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BongoCatKeys"
+        mc:Ignorable="d"
+        Title="Very cute little cat ;w;" Height="744" Width="1254.5" ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <Image Source="ressources/default.png" Margin="-54,0,-74,-42"/>
+
+        <Image x:Name="d" Source="ressources/d.png" Margin="252,384,725,195" Visibility="Hidden"/>
+        <Image x:Name="f" Source="ressources/f.png" Margin="245,406,557,173" Visibility="Hidden"/>
+        <Image x:Name="j" Source="ressources/j.png" Margin="442,458,364,123" Visibility="Hidden"/>
+        <Image x:Name="k" Source="ressources/k.png" Margin="501,473,306,109" Visibility="Hidden"/>
+
+
+        <Image x:Name="pat_down_l_f" Source="ressources/pat_down_l.png" Margin="159,248,426,75" Visibility="Hidden"/>
+        <Image x:Name="pat_down_l_d" Source="ressources/pat_down_l.png" Margin="110,248,475,75" Visibility="Hidden"/>
+        <Image x:Name="pat_down_l_df" Source="ressources/pat_down_l.png" Margin="125,248,460,75" Visibility="Hidden"/>
+
+        <Image x:Name="pat_down_r_k" Source="ressources/pat_down_r.png" Margin="98,126,-98,-126" Visibility="Hidden"/>
+        <Image x:Name="pat_down_r_j" Source="ressources/pat_down_r.png" Margin="134,141,-134,-141" Visibility="Hidden"/>
+        <Image x:Name="pat_down_r_jk" Source="ressources/pat_down_r.png" Margin="180,176,-36,-93" Visibility="Hidden"/>
+
+        <Image x:Name="right_up" Source="ressources/right_up.png" Margin="254,199,-8,-14" Visibility="Hidden"/>
+        <Image x:Name="left_up" Source="ressources/left_up.png" Margin="171,292,587,229" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
